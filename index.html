@@ -57,14 +57,14 @@ body {
     }
 }
 
-a {
+a.button {
     color: #00ccff;
     -webkit-transition: 0.5s;
     -o-transition: 0.5s;
     transition: 0.5s
 }
 
-a:hover,a:active,a:focus {
+a.button:hover,a.button:active,a.button:focus {
     color: #00ccff;
     outline: none
 }
@@ -143,7 +143,7 @@ h1,h2,h3,h4,h5,h6 {
   border-width: 55px 0 0 400px;
   border-color: transparent transparent transparent #141414;
 }
-.snip1336 figcaption a {
+.snip1336 figcaption a.button {
   padding: 5px;
   border: 1px solid #ffffff;
   color: #ffffff;
@@ -158,7 +158,7 @@ h1,h2,h3,h4,h5,h6 {
   font-weight: 600;
   letter-spacing: 1px;
 }
-.snip1336 figcaption a:hover {
+.snip1336 figcaption a.button:hover {
   opacity: 1;
 }
 .snip1336 .profile {
@@ -171,10 +171,10 @@ h1,h2,h3,h4,h5,h6 {
   opacity: 1;
   box-shadow: 0 0 15px rgba(0, 0, 0, 0.3);
 }
-.snip1336 .follow {
+.snip1336 a.follow {
   margin-right: 4%;
-  border-color: #66e3f8;
-  color: #66e3f8;
+  border-color: #66e3f8 !important;
+  color: #66e3f8 !important;
 }
 .snip1336 h2 {
   margin: 0 0 5px;
@@ -281,7 +281,19 @@ ul.profile-social-links {
 <li><a href="https://medium.com/@daveos" target="_blank"><i class="fa fa-medium"></i></a></li>
 <li><a href="https://github.com/davidos16" target="_blank"><i class="fa fa-github"></i></a></li>
 </ul>
-    <h2>David Sanders <br><span>Partner - 9th Designs || Chicago</span></h2>
+    <h2>David Sanders
+    
+    
+    <br>
+    <span>Engineer -   <a href="https://www.withwayfinder.com/team/david-sanders" target="_blank" style="
+    color: #fff;
+    text-decoration: underline;
+">Wayfinder </a> </span>
+  
+    <span>Partner -   <a href="https://9thdesigns.com" target="_blank" style="
+    color: #fff;
+    text-decoration: underline;
+">9th Designs </a> </span></h2>
     <br>
     <p><strong><u>Programmer/Designer/Overall Creative</u> </strong>
     
@@ -295,7 +307,9 @@ ul.profile-social-links {
      <p>
     <b> <u>Work</u></b>
     <br>
-I’m the senior website specialist at the University of Chicago. I’m also the founding partner of 9th Designs, a creative product studio based in Chicago, which is where I spend most of my free time.
+    I’m a engineer at <a href="https://www.withwayfinder.com/team/david-sanders" target="_blank">Wayfinder</a>, a Social Emotional Learning + Life Readiness curriculum for K-12 schools that develops healthy self esteem, belonging, and purpose.
+    
+    <br> <br> I’m also the founding partner of 9th Designs, a creative product studio based in Chicago, which is where I spend most of my free time.
     
     <br> <br>
     
@@ -303,6 +317,7 @@ I’m the senior website specialist at the University of Chicago. I’m also the
     
     <br> <br>My skills include being efficient in building responsive, agile web sites and applications using Ruby on Rails, JavaScript or JS Frameworks, HTML, and CSS/SASS. I also design & develop cross-platform mobile applications (IOS + Android) via Turbo (Turbolinks) Native & Rails.
     
+
      <br> <br>
      <b> <u>9th Designs</u></b>
     <br>
@@ -310,7 +325,7 @@ I’m the senior website specialist at the University of Chicago. I’m also the
     
     <br> <br>
     
-    At 9th, I lead our small development team while managing the operations, typical founder duties.
+    We resemble an art studio. We're only interested and invested into a handful of projeects. Those who work with us align
     
     <br> <br> I’m committed to bootstrapping. 9th's goals are simple. Make money while producing monumental work.
     
@@ -319,7 +334,7 @@ I’m the senior website specialist at the University of Chicago. I’m also the
     
 
   
-  <a href="#" class=" info collapsed" type="button" data-toggle="collapse" data-target="#collapseExample" aria-expanded="false" aria-controls="collapseExample">Read more about me</a>
+  <a href="#" class=" info collapsed button" type="button" data-toggle="collapse" data-target="#collapseExample" aria-expanded="false" aria-controls="collapseExample">Read more about me</a>
   
     <a href="https://9thdesigns.com" target="_blank" class=" button follow">9th Designs</a>
   
